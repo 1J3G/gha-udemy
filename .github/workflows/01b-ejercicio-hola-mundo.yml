@@ -1,0 +1,10 @@
+name: 01b Ejercicio Hola Mundo
+on:
+  workflow_dispatch:
+jobs:
+  # This workflow contains a single job called "greet"
+  ejercicio-hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Ejercicio Hola Mundo
+      run: echo "Hola Juan Guillermo"
