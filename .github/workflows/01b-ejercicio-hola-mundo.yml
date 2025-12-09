@@ -1,6 +1,7 @@
 name: 01b Ejercicio Hola Mundo
 on:
   workflow_dispatch:
+  push:
 jobs:
   # This workflow contains a single job called "greet"
   ejercicio-hola-mundo:
